@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/ConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
@@ -33,10 +32,9 @@
         app:srcCompat="@drawable/ic_contact" />
 
     <TextView
-        android:id="@+id/main_tV_phone"
+        android:id="@+id/main_tv_phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="010-8222-6050"
         android:textColor="#000000"
         android:textSize="40dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
@@ -129,7 +127,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="7"
-        app:layout_constraintBottom_toTopOf="@+id/ConstraintLayout"
+        app:layout_constraintBottom_toTopOf="@+id/main_tv_star"
         app:layout_constraintEnd_toStartOf="@+id/main_tv_8"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -160,7 +158,7 @@
         app:layout_constraintTop_toBottomOf="@+id/main_tv_6" />
 
     <TextView
-        android:id="@+id/ConstraintLayout"
+        android:id="@+id/main_tv_star"
         style="@style/DialButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -180,7 +178,7 @@
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toStartOf="@+id/main_tv_sharp"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ConstraintLayout"
+        app:layout_constraintStart_toEndOf="@+id/main_tv_star"
         app:layout_constraintTop_toBottomOf="@+id/main_tv_8" />
 
     <TextView
